@@ -14,8 +14,7 @@ Vue.use(VueRouter)
 // 配置规则
 const router = new VueRouter({
     routes: [
-        // {name: 'index', path: '/', redirect: '/home'},
-        
+        {name: 'index', path: '/', redirect: '/home'},
         {name: 'signin', path: '/signin', component: SignIn},
         {name: 'home', path: '/home', component: Home}
     ]
